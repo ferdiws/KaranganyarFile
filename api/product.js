@@ -5,7 +5,7 @@ router.get("/", async (req, res) => {
     try {
         res.json({
             status: 200,
-            message: "berhasil"
+            message: "berhasil",
         })
     } catch (err) {
         console.error(err)
